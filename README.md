@@ -1,19 +1,6 @@
 # Spring Boot 集成 MyBatis, 分页插件 PageHelper, 通用 Mapper 
 
-- [Spring Boot 1.5.1.RELEASE](https://github.com/spring-projects/spring-boot)
-- [mybatis-spring-boot-starter](https://github.com/mybatis/spring-boot-starter)
-- [mapper-spring-boot-starter](https://github.com/abel533/mapper-boot-starter)
-- [pagehelper-spring-boot-starter](https://github.com/pagehelper/pagehelper-spring-boot)
 
-## 新书《MyBatis 从入门到精通》
-
-![MyBatis 从入门到精通](https://github.com/mybatis-book/book/raw/master/book.png)
-
-预售地址：[京东](https://item.jd.com/12103309.html)，[当当](http://product.dangdang.com/25098208.html)，[亚马逊](https://www.amazon.cn/MyBatis从入门到精通-刘增辉/dp/B072RC11DM/ref=sr_1_18?ie=UTF8&qid=1498007125&sr=8-18&keywords=mybatis)
-
-CSDN博客：http://blog.csdn.net/isea533/article/details/73555400
-
-GitHub项目：https://github.com/mybatis-book/book
 
 ## 项目依赖
 ```xml
@@ -37,7 +24,7 @@ GitHub项目：https://github.com/mybatis-book/book
 </dependency>
 ```
 ## Spring DevTools 配置
-感谢[emf1002](https://github.com/emf1002)提供的解决方案。
+
 
 在使用 DevTools 时，通用Mapper经常会出现 class x.x.A cannot be cast to x.x.A。
 
@@ -112,10 +99,3 @@ pagehelper:
 
 - 推荐使用 Mybatis 分页插件 PageHelper https://github.com/pagehelper/Mybatis-PageHelper
 
-## 作者信息
-
-- 作者博客：http://blog.csdn.net/isea533
-
-- 作者邮箱：abel533@gmail.com
-
-- Mybatis工具群： <a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=7c2f018e4cddc7d4aad04fc312b2d69361a0a896a4f59219a7914953a57bffc2"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="Mybatis工具群" title="Mybatis工具群"></a>
