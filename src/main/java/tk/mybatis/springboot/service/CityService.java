@@ -46,6 +46,7 @@ public class CityService {
         if (city.getPage() != null && city.getRows() != null) {
             PageHelper.startPage(city.getPage(), city.getRows());
         }
+
         return cityMapper.selectAll();
     }
 
@@ -63,5 +64,8 @@ public class CityService {
         } else {
             cityMapper.insert(country);
         }
+    }
+    public List<City> getList(){
+        return cityMapper.selectAll();
     }
 }
